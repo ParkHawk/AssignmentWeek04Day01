@@ -1,0 +1,40 @@
+body{
+  margin: 0px;
+}
+
+#nameTitle{
+  text-align: center;
+  color: white;
+}
+
+header{
+  background: grey;
+  margin-top: 0px;
+  padding: 15px 0px;
+}
+
+#body {
+  display: flex;
+  margin: 0px;
+  margin-top: 25px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+#basics{
+  list-style: none;
+}
+
+#basicsSection{
+  width: 35%;
+  margin-left: 10px;
+}
+
+img{
+  width: 35%;
+  height: auto;
+  border-radius: 75px;
+  position:relative;
+  left: 25%;
+}
