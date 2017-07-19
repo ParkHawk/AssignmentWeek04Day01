@@ -23,20 +23,21 @@ body.innerHTML = `<header>
 </header>
 <div id="body">
   <section id = "basicsSection">
-    <h3 id = "bascisTitle">The Basics</h3>
+    <h3 id = "basicsTitle">The Basics</h3>
     <ul id="basics">
-      <li id="name">Name: ${name}</li>
-      <li id="github">Github URL: ${github}</li>
-      <li id="email">Email: ${email}</li>
-      <li id="company">Company: ${company}</li>
-      <li id="website">Website: ${website}</li>
+      <li id="name"><em>Name:</em> ${name}</li>
+      <li id="github"><em>Github URL:</em> ${github}</li>
+      <li id="email"><em>Email:</em> ${email}</li>
+      <li id="company"><em>Company:</em> ${company}</li>
+      <li id="website"><em>Website:</em> ${website}</li>
       <ul>
   </section>
+  <hr>
   <section id="storySection">
     <h3 id="storyTitle">The Story</h3>
     <p id = "story">${storyContent}</p>
   </section>
-  <section>
+  <section id = "imagesSection">
     <img src = "${image}">
   </section>
 </div>`

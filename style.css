@@ -5,36 +5,77 @@ body{
 #nameTitle{
   text-align: center;
   color: white;
+  font-weight: 100;
+  font-weight: lighter;
 }
 
 header{
-  background: grey;
+  background: 	#1C1C1C;
   margin-top: 0px;
   padding: 15px 0px;
+  margin-bottom: 0px;
 }
 
 #body {
   display: flex;
   margin: 0px;
   margin-top: 25px;
+  padding-top: 5px;
   justify-content: space-around;
-  align-items: center;
+  background: 	#F3F3F3;
+  position: relative;
+  bottom: 25px;
 }
 
+hr{
+  position: relative;
+  top: 50px;
+  color: black;
+  border-color: lightGrey;
+  height: 100px;
 
-#basics{
-  list-style: none;
 }
 
 #basicsSection{
   width: 35%;
   margin-left: 10px;
+  word-wrap: break-word;
+}
+
+#basicsTitle{
+  margin-left: 30px;
+}
+
+h3{
+  font-weight: 800;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+#basics{
+  list-style: none;
+}
+
+em{
+  font-style: normal;
+  color: teal;
+}
+
+#storySection{
+  margin-left: 20px;
+  margin-top: 0px;
+  height: 100%;
+}
+
+#imagesSection{
 }
 
 img{
+  margin-top: 10%;
   width: 35%;
   height: auto;
-  border-radius: 75px;
+  border-radius: 50%;
   position:relative;
   left: 25%;
+  top: 40px;
 }
